@@ -1,0 +1,26 @@
+{
+  "games": [
+    {
+      "id": "ball-game",
+      "title": "Rot Ball",
+      "shortDesc": "A game about a rolling ball.",
+      "background": "img/rot-ball.png",
+      "description": "This is a simple game where you control a rolling ball and navigate through the various levels to collet the items and avoid enemies. This was made as a project in order for me (Jumper) to learn the ropes of C# and the engine.",
+      "achievements": [
+        "First Noctis Game"
+      ],
+      "team": [
+        {
+          "name": "Jumper",
+          "role": "Founder, Developer",
+          "joined": "2025"
+        },
+        {
+          "name": "Bozy",
+          "role": "Developer",
+          "joined": "2025"
+        }
+      ]
+    }
+  ]
+}

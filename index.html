@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noctis</title>
+    <link rel="icon" href="img/NoctisPFP.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="img/NoctisPFP.png" alt="Noctis Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#games">Games</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>NOCTIS</h1>
+            <p>We Make Games</p>
+        </header>
+
+        <section id="games" class="section">
+            <div class="content-wrapper">
+                <h2>Our Games</h2>
+                <div class="game-grid" id="game-cards-container">
+                    <!-- Game cards will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social-links">
+                <a href="https://x.com/lordjumper0" class="social-icon">Twitter</a>
+                <a href="https://discord.gg/WJepqBC46j" class="social-icon">Discord</a>
+            </div>
+            <p>&copy; 2025 Noctis. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Modal Template -->
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <h2 id="modal-title"></h2>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image" id="modal-image"></div>
+                <div class="modal-description" id="modal-description"></div>
+                
+                <div class="modal-section">
+                    <h3>Achievements</h3>
+                    <ul id="modal-achievements"></ul>
+                </div>
+                
+                <div class="modal-section">
+                    <h3>Team</h3>
+                    <div id="modal-team" class="team-grid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
